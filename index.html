@@ -1383,7 +1383,7 @@
   }
 
   // ---------- Initial load + polling ----------
-  if(CONFIG.API_URL.indexOf('PASTE_YOUR_APPS_SCRIPT') === 0){
+  if(CONFIG.API_URL.indexOf('https://script.google.com/macros/s/AKfycbwn0j2KKvz3mY_PU8JPxYDgSq9VdrqEbyPC_7V6TBGZvQsL9VWm-d5Ixu76Da_lZYTdmA/exec') === 0){
     showConnBanner('Backend not configured yet — set CONFIG.API_URL in the HTML to your deployed Apps Script Web App URL.');
   } else {
     refreshProjects(function(err){
